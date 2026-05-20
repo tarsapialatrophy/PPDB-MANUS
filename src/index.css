@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@media print {
+  /* Hide every element by default */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  body > * {
+    display: none !important;
+  }
+  /* Show only the targeted print section */
+  #print-section, #print-section * {
+    display: block !important;
+    visibility: visible !important;
+  }
+  #print-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 2rem;
+    box-shadow: none !important;
+    border: none !important;
+    background: white !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Admin PPDB",
+  "description": "Dashboard Admin Penerimaan Peserta Didik Baru (PPDB) dengan statistik real-time, grafik pendaftaran, tabel manajemen siswa, dan ekspor source code PHP Native & MySQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
